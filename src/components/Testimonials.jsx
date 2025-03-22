@@ -30,7 +30,7 @@ const Testimonials = () => {
     return (
         <Container className='my-10 text-textblack'>
             <h2 className='text-center text-4xl font-semibold my-8'>Testimonials</h2>
-            <div className="flex flex-wrap justify-between w-3/4 mx-auto  ">
+            <div className="flex flex-wrap justify-between lg:w-3/4 w-[95%] mx-auto  ">
                 {testimonials.map((testimonial, index) =>
                 (
                     <TestimonialCard statement={testimonial.statement} person={testimonial.person} company={testimonial.company}  />

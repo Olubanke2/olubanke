@@ -28,11 +28,11 @@ const Navbar = ({className, linkClasses}) => {
 
             {isOpen && (
                 <div className="absolute z-0 top-0 right-3">
-                    <ul className="md:hidden space-y-2 text-center mt-20 bg-white rounded-lg px-5 py-3">
-                        <li><Link href="#" className={`block text-black py-2 hover:bg-neutral-300 ${linkClasses}`}>Home</Link></li>
-                        <li><Link href="#" className={`block text-black py-2 hover:bg-neutral-300 ${linkClasses}`}>About</Link></li>
-                        <li><Link href="#" className={`block text-black py-2 hover:bg-neutral-300 ${linkClasses}`}>Services</Link></li>
-                        <li><Link href="#" className={`block text-black py-2 hover:bg-neutral-300 ${linkClasses}`}>Contact</Link></li>
+                    <ul className="md:hidden space-y-2 text-center mt-20 bg-white rounded-lg px-12 py-6">
+                        <li><Link href="#" className={`block text-[#000000] py-2 hover:bg-neutral-300 ${linkClasses}`}>Home</Link></li>
+                        <li><Link href="#" className={`block text-[#000000] py-2 hover:bg-neutral-300 ${linkClasses}`}>About</Link></li>
+                        <li><Link href="#" className={`block text-[#000000] py-2 hover:bg-neutral-300 ${linkClasses}`}>Services</Link></li>
+                        <li><Link href="#" className={`block text-[#000000] py-2 hover:bg-neutral-300 ${linkClasses}`}>Contact</Link></li>
                     </ul>
                 </div>)
             }

@@ -9,8 +9,8 @@ import Whatsapp from '../assets/social/Whatsapp.svg'
 
 const Footer = () => {
     return (
-        <footer className='bg-white p-12'>
-            <div className="flex justify-between items-center">
+        <footer className='bg-white p-6 lg:p-12'>
+            <div className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between items-center">
                 <img src={logo} width={200} alt="" />
                 <div className="">
                     <a className='px-2 text-[#1E0E62] font-medium' href="">Home</a>
