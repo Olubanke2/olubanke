@@ -10,7 +10,7 @@ const Navbar = ({className, linkClasses}) => {
     }
 
     return (
-        <nav className={`h-20 w-full flex px-12 justify-between items-center ${className}`}>
+        <nav className={`h-20 w-full flex px-6 lg:px-12 justify-between items-center ${className}`}>
             <img className='' width={200} src={logo} alt="Logo" />
 
             {/* Desktop Nav */}
