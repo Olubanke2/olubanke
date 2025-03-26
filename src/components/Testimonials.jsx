@@ -33,7 +33,7 @@ const Testimonials = () => {
             <div className="flex flex-wrap justify-between lg:w-3/4 w-[95%] mx-auto  ">
                 {testimonials.map((testimonial, index) =>
                 (
-                    <TestimonialCard statement={testimonial.statement} person={testimonial.person} company={testimonial.company}  />
+                    <TestimonialCard statement={testimonial.statement} person={testimonial.person} company={testimonial.company} />
                 ))
                 }
             </div>

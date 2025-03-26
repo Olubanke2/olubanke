@@ -3,13 +3,13 @@ import HeroImg from '../assets/Heroimage.jpg'
 
 const Hero = () => {
     return (
-        <div className='lg:px-20 px-8 h-[60vh] lg:h-[550px] flex items-center bg-cover bg-no-repeat' style={{ backgroundImage: `url(${HeroImg})`, }}>
-            <div className="flex flex-col gap-6 lg:w-1/2">
-                <h3 className='text-white hidden lg:block'>MCCL delivers expert inbound & outbound call solutions to enhance customer satisfaction and drive business growth.</h3>
-                <h1 className='text-center lg:text-left font-bold text-5xl lg:text-6xl text-white'>Smarter Calls <br /> Better Business</h1>
-                <button className='w-max mx-auto lg:mx-0 py-3 lg:py-2 px-5 bg-[#2b2c62] text-white'>Explore services</button>
+        <div className='px-10 justify-center sm:px-20 h-[350px] flex items-center' style={{ backgroundImage: `url(${HeroImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'right' }}>
+            <div className="gap-6 flex flex-col justify-center items-center sm:w-1/2">
+                <h3 className='text-white max-sm:hidden pr-[130px] m-12 mt-11 gap-6  w-[481px] h-[38px]'>MCCL delivers expert inbound & outbound call solutions to enhance customer satisfaction and drive business growth.</h3>
+                <h1 className=' max-sm:text-center font-bold text-6xl max-sm:text-[36px] text-white'>Smarter Calls <br /> Better Business</h1>
+                <button className='py-2 px-5 bg-[#3033E9] text-sm sm:text-base max-sm:h-[40px] max-sm:px-1 max-sm:rounded-md text-white'>Explore services</button>
             </div>
-        </div>
+        </div >
     )
 }
 
